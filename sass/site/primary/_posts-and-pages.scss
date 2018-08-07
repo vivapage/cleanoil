@@ -1,0 +1,59 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 1250px;
+	padding: 0 40px 0 40px;
+	margin: auto;
+	z-index: 2;
+}
+
+.banner {
+	min-height: 560px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+}
+.row {
+	width: 100%;
+	position: relative;
+}
+.col-2 {
+	@include column-width(2);
+}
+
+.block {
+	display: flex;
+}
+.cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+}
